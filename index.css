@@ -1,0 +1,175 @@
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el input de subir archivo */
+#inputExcel {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover en el input */
+#inputExcel:hover {
+  background-color: #e6f2ff;
+  box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+}
+
+/* Contenedor de la tabla con scroll */
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Mantener el estilo de la tabla */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+/* Estilos para encabezados y celdas */
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  min-width: 50px;
+}
+
+th {
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 3px solid #3a7dc2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+td:hover {
+  background-color: #eef7ff;
+}
+
+/* Estilo para el cuerpo de la página */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+  text-align: center;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el input de subir archivo */
+#inputExcel {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #4a90e2;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover en el input */
+#inputExcel:hover {
+  background-color: #e6f2ff;
+  box-shadow: 0 0 10px rgba(74, 144, 226, 0.5);
+}
+
+/* Contenedor de la tabla con scroll */
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+/* Mantener el estilo de la tabla */
+table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+/* Estilos para encabezados y celdas */
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 3px solid #3a7dc2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+td:hover {
+  background-color: #eef7ff;
+}
+
+/* Estilo específico para las columnas 8 y 10 */
+.col-wide {
+  min-width: 400px; /* Ajusta el ancho según sea necesario */
+}
